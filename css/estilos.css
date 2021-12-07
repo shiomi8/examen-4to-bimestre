@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dfcae1;
+    font-family: "Questrial", sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin: 2em;
+}
+.orden{
+    background-color: #8f7193;
+    padding: 0.8rem;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    width: 30%;
+}
+
+.orden label, .orden input, .orden select {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.orden label{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.orden input{
+    border: none;
+    border-bottom: 2px solid #FFC105;
+    margin-bottom: 10px;
+    font-size: 17px;
+    padding: 9px;
+    outline: none;
+    color: gray;
+    font-family: "Questrial", sans-serif;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c0a0c3;
+    color: white;
+    font-size: 20px;
+    font-family: "Questrial", sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+.mostrar{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 80%;
+    background-color: #8f7193;
+
+}
+h1{
+    padding: 0.5em;
+}
+.list-container{
+    width: 100em;
+    height: 100%;
+}
+.cuadrado{
+    width: 10em;
+    height: 10em;
+    margin-top: 2em;
+ 
+}
+.circulo{
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    margin-top: 2em;
+}
