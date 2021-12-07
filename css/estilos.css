@@ -79,17 +79,22 @@ button{
 h1{
     padding: 0.5em;
 }
-.list-container{
-    width: 100em;
-    height: 100%;
+.almacen{
+    margin: 2em;
 }
 .cuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10em;
     height: 10em;
     margin-top: 2em;
  
 }
 .circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     width: 10em;
     height: 10em;

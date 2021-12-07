@@ -7,7 +7,9 @@ let print = document.getElementById("list-container");
 const print_tasks = ()=>{
     print.innerHTML = ""
     print.insertAdjacentHTML('beforeend',`
-    <div class="${forma.value}" style="background-color:${color.value} ;" id="pintado">${nombre.value}</div>
+    <div class="${forma.value}" style="background-color:${color.value} ;" id="pintado">
+    <p>${nombre.value}<p>
+    </div>
     `)
 }
 
